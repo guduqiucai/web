@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>closure</title>
+</head>
+<body>
+    <script>
+        // 基本工资+绩效工资
+        function makeSalary (base) {
+            return function (performance) {
+                return base + performance
+            }
+        }
+        // 基本工资
+        let salaryLevel1 = makeSalary(12000)
+        let salaryLevel2 = makeSalary(15000)
+
+        // 测试
+        console.log(salaryLevel1(2000))
+        console.log(salaryLevel2(3000))
+
+    </script>
+</body>
+</html>
