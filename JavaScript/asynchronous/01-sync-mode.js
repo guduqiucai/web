@@ -1,4 +1,4 @@
-console.log('global begin12')
+console.log('global begin123')
 
 function bar () {
   console.log('bar task')
