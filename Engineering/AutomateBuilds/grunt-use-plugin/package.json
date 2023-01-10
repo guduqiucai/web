@@ -1,0 +1,12 @@
+{
+  "name": "grunt-bad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.4"
+  },
+  "dependencies": {
+    "grunt-contrib-clean": "^2.0.0"
+  }
+}
