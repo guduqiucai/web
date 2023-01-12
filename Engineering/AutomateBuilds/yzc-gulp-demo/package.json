@@ -4,5 +4,31 @@
   "main": "index.js",
   "repository": "https://github.com/guduqiucai/yzc-gulp-demo.git",
   "author": "yuanbeibei <yuanbb@gresgying.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "clean": "gulp clean",
+    "dev": "gulp develop",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "bootstrap": "^5.2.3",
+    "browser-sync": "^2.27.11",
+    "del": "6.0.0",
+    "electron-webpack": "^2.8.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "7.1.0",
+    "gulp-load-plugins": "^2.0.8",
+    "gulp-sass": "^5.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "sass": "^1.57.1",
+    "useref": "^1.4.4"
+  }
 }
