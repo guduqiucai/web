@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@zce/cli": "^0.2.0-alpha.9",
-    "zce-cli": "^0.5.0"
-  }
-}
