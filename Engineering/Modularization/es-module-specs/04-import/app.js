@@ -1,6 +1,6 @@
 // 文件后缀不能省略，"./"也不能省略
 // 可以使用绝对路径，也可以使用http网站链接
-// import { name } from './module.js'
+// import { name } from './module.mjs'
 // console.log(name)
 
 // 文件目录下的index.js可以省略
@@ -23,7 +23,7 @@ import('./module.js').then(function (module) {
 })
 
 // 同时提取默认成员和具体成员
-// import {name, age, default as str } from './module.js'
+// import {name, age, default as str } from './module.mjs'
 // 左边接受的就是导出的默认成员
 import str, { name, age } from './module.js'
 console.log(name, age, str)
