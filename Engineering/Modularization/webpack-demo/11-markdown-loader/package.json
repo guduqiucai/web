@@ -1,0 +1,14 @@
+{
+  "name": "11-markdown-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "marked": "^4.2.12",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "html-loader": "^4.2.0"
+  }
+}

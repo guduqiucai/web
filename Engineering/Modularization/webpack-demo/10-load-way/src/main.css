@@ -1,0 +1,6 @@
+@import url("reset.css");
+body {
+    min-height: 100vh;
+    background: #f4f8fb url(https://tcs.teambition.net/storage/312p0b151212ef912e0daacab225e5277e83?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY3NDYyNDcyNiwiaWF0IjoxNjc0MDE5OTI2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMnAwYjE1MTIxMmVmOTEyZTBkYWFjYWIyMjVlNTI3N2U4MyJ9.JRK0IXlvIslh0oD6cGMvsTvw7b0YvoMGpo13R11BCxY&download=image.png);
+    background-size: cover;
+}
